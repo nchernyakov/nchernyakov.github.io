@@ -1,0 +1,37 @@
+# Site settings
+title: Nikita Chernyakov
+email: iam@nchernyakov.com
+description: >-
+  IT Project Manager
+baseurl: ""
+url: "https://nchernyakov.com"
+twitter_username: nchernyakov1
+github_username:  nchernyakov
+twitter:
+  username: nchernyakov1
+  card: summary
+social:
+  name: Nikita Chernyakov
+  links:
+    - https://twitter.com/nchernyakov1
+    - https://github.com/nchernyakov
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
